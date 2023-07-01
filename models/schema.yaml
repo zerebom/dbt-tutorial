@@ -19,9 +19,9 @@ models:
         description: Primary key
         tests:
           - unique
-          - not_null
+          - not_null 
 
-  - name: stg_orders
+  - name: stg_orders　
     description: This model cleans up order data
     columns:
       - name: order_id
